@@ -1,0 +1,24 @@
+Cenário: Teste de redirecionamento de notícia no UOL Esporte 
+Dado que esteja na tela inicial do UOL Esporte 
+Quando clico em uma notícia 
+Então verifico se sou redirecionado para outra página que mostra a mesma manchete
+
+Cenário: Teste de busca de produto no Magazine Luiza 
+Dado que esteja na tela inicial do Magazine Luiza 
+Quando preencho o campo de busca com "smartphone" e clico no botão de pesquisa 
+Então verifico se sou redirecionado para uma página de resultados de busca e a página exibe uma lista de produtos relacionados à busca realizada
+
+Cenário: Teste de login no Sauce Demo 
+Dado que esteja na tela inicial do Sauce Demo 
+Quando preencho o campo de usuário com um usuário válido e preencho o campo de senha com uma senha válida E clico no botão de login 
+Então verifico se sou redirecionado para a página principal logado na minha conta
+
+Cenário: Teste de acesso ao Menu no Gauchazh 
+Dado que esteja na tela inicial do Gauchazh 
+Quando clico em uma categoria 
+Então verifico se sou redirecionado para a categoria selecionada.
+ 
+Cenário: Teste de exibição de eventos no Test Pages 
+Dado que esteja na tela inicial do Test Pages 
+Quando clico no botão "clique em mim"
+Então verifico se os eventos de cliques são registrados no layout do histórico 
